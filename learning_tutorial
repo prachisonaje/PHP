@@ -1,0 +1,69 @@
+# PHP Basics (Theory)
+1. PHP Syntax
+- PHP code is written inside `<?php ... ?>` tags.  
+- It can be embedded within HTML to create dynamic web pages.  
+- PHP scripts are executed on the server, and the result is sent to the browser.
+
+2. Variables
+- Variables are used to store data and are defined with the `$` symbol.  
+- They are loosely typed, meaning you don’t need to declare their type.
+
+3. Constants
+- Constants are immutable and defined using the `define()` function or the `const` keyword.  
+- Constants are global and can be accessed anywhere in the script.
+
+4. Conditional Statements
+- Used to make decisions based on conditions (`if`, `else`, `elseif`, `switch`).
+
+5. Loops
+- Loops (`for`, `while`, `do-while`, `foreach`) are used for iterating through data or performing repetitive tasks.
+
+# Functions in PHP
+1. Function Creation and Calling
+- Functions encapsulate reusable blocks of code.  
+- They are defined using the `function` keyword and can accept arguments.
+
+2. Default Arguments
+- Functions can have default values for arguments that are optional during function calls.
+
+3. Passing Arguments by Reference
+- You can pass variables by reference using the `&` symbol, allowing the function to modify the original variable.
+
+# Object-Oriented Programming (OOP) in PHP
+1. Classes and Objects
+- A class is a blueprint for objects and contains properties and methods.  
+- Objects are instances of a class.
+
+2. Inheritance
+- Allows a class to inherit methods and properties from another class.  
+- Supports the concept of code reuse and hierarchy.
+
+3. Access Modifiers
+- Control the visibility of properties and methods:
+  - `public`: Accessible from anywhere.
+  - `protected`: Accessible within the class and its descendants.
+  - `private`: Accessible only within the class.
+
+4. Static Methods and Properties
+- Declared using the `static` keyword.  
+- Can be accessed without creating an instance of the class.
+
+# Arrays in PHP
+1. Types of Arrays
+- Indexed Arrays: Store elements with numeric keys.  
+- Associative Arrays: Use string keys for elements.  
+- Multidimensional Arrays: Arrays containing other arrays.
+
+2. Array Methods
+- PHP offers functions to manipulate arrays, like sorting, merging, and searching.  
+- Examples: `sort()`, `array_merge()`, `in_array()`, `array_push()`, and `count()`.
+
+# Strings in PHP
+
+1. String Basics
+- Strings are sequences of characters.  
+- PHP provides functions to manipulate strings, such as concatenation, searching, and formatting.
+
+2. String Methods
+- Common string operations include calculating length, replacing substrings, and splitting/joining strings.  
+- Examples: `strlen()`, `str_replace()`, `substr()`, and `implode()`.
